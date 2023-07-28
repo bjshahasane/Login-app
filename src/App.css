@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../src/images/img-9.jpg);
+  color: white;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.form-auth-container, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+}
+.login-form{
+  margin: 0.5rem;
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input{
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  border: none;
+}
+
+button{
+  border: none;
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  color: white;
+}
+.error-text{
+  color: red;
+}
+
+.btn-submit{
+  background-color: darkgreen;
+}
+
+.btn-submit:hover{
+  background-color: green;
+  color: black;
+}
+
+.btn-link{
+  border: none;
+  background: none;
+  color: white;
+}
+h1{
+  color: rgb(87, 230, 58);
+}
+

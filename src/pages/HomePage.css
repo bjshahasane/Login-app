@@ -1,0 +1,89 @@
+.base-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.base-container>h1 {
+    color: white;
+    font-size: 100px;
+    margin-top: -100px;
+}
+
+.base-container>p {
+    color: white;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+.profile-image-container {
+    top: 0.5rem;
+    left: 0.75rem;
+    position: fixed;
+    max-width: 14%;
+    max-height: 14%;
+    object-fit: cover;
+    color: white;
+}
+
+.user-img {
+    border-radius: 70px;
+}
+
+.custom-button {
+    position: absolute;
+    /* Position the button */
+    top: 0;
+    /* Position from the top */
+    right: 0;
+    /* Position from the right */
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    background: none;
+}
+
+.custom-button:hover {
+    background-color: grey;
+    color: #202020;
+    border: 2px solid #202020;
+}
+
+.base-btns {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btn-styled {
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    margin: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 5px #999;
+}
+
+.btn-styled:hover {
+    background-color: rgb(181, 177, 177);
+}
+
+.btn-styled:active {
+    background-color: grey;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+}
